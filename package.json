@@ -1,0 +1,46 @@
+{
+  "name": "@--desktop-cucumber--/core",
+  "version": "1.0.0",
+  "description": "基础包，包含4个官方live2d",
+  "main": "./is-plugin",
+  "scripts": {},
+  "keywords": [],
+  "author": "wenxig",
+  "license": "ISC",
+  "homepage": "https://github.com/wenxig/desktop-live2d",
+  "packageManager": "pnpm@10.4.1",
+  "desktop-cucumber": {
+    "models": [
+      {
+        "id": "musumi_base",
+        "path": "./lv2d/musumi_base/model.json",
+        "name": "常服睦子米",
+        "hitbox": false
+      },
+      {
+        "id": "musumi_summer",
+        "path": "./lv2d/musumi_summer/model.json",
+        "extends": [
+          "core:musumi_base"
+        ],
+        "name": "夏季校服睦子米",
+        "hitbox": false
+      },
+      {
+        "id": "musumi_winter",
+        "path": "./lv2d/musumi_winter/model.json",
+        "extends": [
+          "core:musumi_base"
+        ],
+        "name": "冬季校服睦子米",
+        "hitbox": false
+      },
+      {
+        "id": "mts_base",
+        "path": "./lv2d/mts_base/model.json",
+        "name": "演出服Mortis",
+        "hitbox": false
+      }
+    ]
+  }
+}
