@@ -9,7 +9,7 @@
   "license": "ISC",
   "homepage": "https://github.com/wenxig/desktop-live2d",
   "packageManager": "pnpm@10.4.1",
-  "desktop-cucumber": {
+  "desktopCucumber": {
     "models": [
       {
         "id": "musumi_base",
@@ -41,6 +41,11 @@
         "name": "演出服Mortis",
         "hitbox": false
       }
-    ]
+    ],
+    "module": {
+      "namespace": "core",
+      "dispalyName": "核心",
+      "configVersion": 1
+    }
   }
 }
