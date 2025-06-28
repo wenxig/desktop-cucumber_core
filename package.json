@@ -44,7 +44,7 @@
     ],
     "module": {
       "namespace": "core",
-      "dispalyName": "核心",
+      "displayName": "核心",
       "configVersion": 1
     }
   }
