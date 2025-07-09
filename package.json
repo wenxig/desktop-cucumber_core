@@ -12,40 +12,69 @@
   "desktopCucumber": {
     "models": [
       {
-        "id": "musumi_base",
-        "path": "./lv2d/musumi_base/model.json",
-        "name": "常服睦子米",
-        "hitbox": false
+        "id": "mutsumi_base",
+        "path": "./lv2d/mutsumi_base/model.json",
+        "name": "常服",
+        "hitbox": false,
+        "tags": [
+          "mutsumi"
+        ]
       },
       {
-        "id": "musumi_summer",
-        "path": "./lv2d/musumi_summer/model.json",
+        "id": "mutsumi_summer",
+        "path": "./lv2d/mutsumi_summer/model.json",
         "extends": [
-          "core:musumi_base"
+          "core:mutsumi_base"
         ],
-        "name": "夏季校服睦子米",
-        "hitbox": false
+        "name": "夏季校服",
+        "hitbox": false,
+        "tags": [
+          "mutsumi"
+        ]
       },
       {
-        "id": "musumi_winter",
-        "path": "./lv2d/musumi_winter/model.json",
+        "id": "mutsumi_winter",
+        "path": "./lv2d/mutsumi_winter/model.json",
         "extends": [
-          "core:musumi_base"
+          "core:mutsumi_base"
         ],
-        "name": "冬季校服睦子米",
-        "hitbox": false
+        "name": "冬季校服",
+        "hitbox": false,
+        "tags": [
+          "mutsumi"
+        ]
       },
       {
-        "id": "mts_base",
-        "path": "./lv2d/mts_base/model.json",
-        "name": "演出服Mortis",
-        "hitbox": false
+        "id": "mortis_base",
+        "path": "./lv2d/mortis_base/model.json",
+        "name": "演出服",
+        "hitbox": false,
+        "tags": [
+          "mortis"
+        ]
       }
     ],
     "module": {
       "namespace": "core",
       "displayName": "核心",
-      "configVersion": 1
-    }
+      "configVersion": 1,
+      "type": "content"
+    },
+    "personality": [
+      {
+        "id": "mutsumi",
+        "name": "若叶睦",
+        "skin": [
+          "mutsumi"
+        ]
+      },
+      {
+        "id": "mortis",
+        "name": "墨缇丝",
+        "skin": [
+          "mortis"
+        ]
+      }
+    ]
   }
 }
